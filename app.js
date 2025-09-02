@@ -8,6 +8,7 @@ let listaDeNumeroSorteado = [];
 let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
@@ -76,34 +77,34 @@ function reiniciarJogo() {
 
 //Crie uma lista vazia, com o nome listaGenerica.
 
-let listaGenerica = [];
+//
 
 //acertei
 
 //Crie uma lista de linguagens de programação chamada linguagensDeProgramacao com os seguintes elementos: 'JavaScript','C','C++', 'Kotlin' e 'Python'.
 
-let linguagensDeProgramacao = ['JavaScript', 'C', 'C++', 'Kotlin', 'Python', 'Java', 'Ruby', 'GoLang'];
+//
 
 //meio certo (Para adicionar algo na lista novamente, colocar por exemplo, linguagensDeProgramacao. push(e os nomes que vai ser adicionado na lista)).
 
 //Crie uma lista com 3 nomes e exiba no console apenas o primeiro elemento.
 
-let nomes = ['Alexandre', 'Larissa', 'Luna'];
-console.log(nomes.length - 2);
+//let nomes = ['Alexandre', 'Larissa', 'Luna'];
+//console.log(nomes.length - 2);
 
 //meio certo (A forma correto seria nomes[0] e não nomes.length - 2).
 
 //Crie uma lista com 3 nomes e exiba no console apenas o segundo elemento.
 
-let nome = ['Clara', 'Rebecca', 'Justin'];
-console.log(nome.length - 1);
+//let nome = ['Clara', 'Rebecca', 'Justin'];
+//console.log(nome.length - 1);
 
 //meio certo (A forma correto seria nomes[1] e não nomes.length - 1).
 
 //Crie uma lista com 3 nomes e exiba no console apenas o último elemento.
 
-let nomeExibir = ['A', 'C', 'D'];
-console.log(nomeExibir.length - 2);
+//let nomeExibir = ['A', 'C', 'D'];
+//console.log(nomeExibir.length - 2);
 
 //meio certo (A forma correto seria nomes[2] e não nomes.length - 2).
 
